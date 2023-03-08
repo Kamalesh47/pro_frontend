@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.whole
+{
+  background-color: bisque;
+  /* background-image: url("Components/pictures/ipl.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  color:darkgrey;
+  height:100vh; */
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.full
+{
+  text-align: center;
+  /* background-image: url("/src/Components/pictures/12.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  color:darkgrey;
+  height:100vh; */
+  background-color: aqua;
+}
+.delbutt:hover
+{
+  background-color: burlywood;
+  transition: 1s;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.table
+{
+  background-color: aqua;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+input{
+  color:rebeccapurple;
+}
